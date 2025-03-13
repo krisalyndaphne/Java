@@ -34,9 +34,11 @@ public class investmentEarnings{
 
             days++;
         }
-
+        double totEarn=totalProfit-totalLoss;
         System.out.println("\nTotal Profit: $" + totalProfit);
         System.out.println("Total Loss: $" + totalLoss);
+        System.out.println("Total Earnings: $" +totEarn);
+        
 
         in.close();
     }
